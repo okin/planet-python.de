@@ -1,0 +1,5 @@
+feedparser
+peewee
+mako
+webassets
+https://github.com/ralsina/nikola/zipball/master

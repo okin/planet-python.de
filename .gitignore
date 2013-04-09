@@ -33,3 +33,10 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+# Nikola / Planetoid specifics
+.doit.db
+peewee.db
+planet/cache/*
+planet/output/*
+planet/posts/*
