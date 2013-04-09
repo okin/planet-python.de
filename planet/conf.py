@@ -56,6 +56,7 @@ SIDEBAR_LINKS = {
     DEFAULT_LANG: (
         # ('/archive.html', 'Archives'),
         # ('/categories/index.html', 'Tags'),
+        ('https://github.com/okin/planet-python.de', 'Planet-Python.de auf Github'),
         ('/rss.xml', 'RSS'),
     ),
 }
@@ -89,7 +90,7 @@ SIDEBAR_LINKS = {
 
 post_pages = (
     ("posts/*.txt", "posts", "post.tmpl", True),
-    ("stories/*.txt", "stories", "story.tmpl", False),
+    ("stories/*.rst", "stories", "story.tmpl", False),
 )
 
 # One or more folders containing files to be copied as-is into the output.
@@ -271,7 +272,7 @@ DATE_FORMAT = '%d.%m.%Y %H:%M'
 
 # A small copyright notice for the page footer (in HTML).
 # Default is ''
-CONTENT_FOOTER = 'Gebaut mit Spaß & <a href="http://nikola.ralsina.com.ar">Nikola</a>'
+CONTENT_FOOTER = 'Gebaut mit Spaß & <a href="http://nikola.ralsina.com.ar">Nikola</a><br><a href="/stories/impressum.html">Impressum</a>'
 # CONTENT_FOOTER = CONTENT_FOOTER.format(email=BLOG_EMAIL,
 #                                        author=BLOG_AUTHOR,
 #                                        date=time.gmtime().tm_year)
