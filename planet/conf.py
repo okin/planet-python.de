@@ -56,6 +56,7 @@ SIDEBAR_LINKS = {
     DEFAULT_LANG: (
         # ('/archive.html', 'Archives'),
         # ('/categories/index.html', 'Tags'),
+        ('/mitmachen', 'Mach mit!'),
         ('https://github.com/okin/planet-python.de', 'Planet-Python.de auf Github'),
         ('/rss.xml', 'RSS'),
     ),

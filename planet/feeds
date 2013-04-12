@@ -1,2 +1,6 @@
+# So funktionierts:
+# Zuerst in eine Zeile die Adresse des Feeds eintragen,
+# dann in der nächsten Zeile den Anzeigenamen.
+
 http://blog.nerdno.de/categories/python.xml
 Niko Wenselowski
