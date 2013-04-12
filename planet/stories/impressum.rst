@@ -14,4 +14,4 @@ Impressum
     Falltorstr. 20
     60385 Frankfurt am Main
 
-    *blog [at] nerdno . de*.
+    *niko ['a' mit Kringel drum herum] planet-python.de*.
